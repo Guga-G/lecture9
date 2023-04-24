@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 12 version
+*/
+
 @media (max-width: 1360px) {
     .s-1 {
         width: 90%;
@@ -7,7 +14,8 @@
 @media (max-width: 1150px) {
     .container {
         width: 1150px;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         gap: 100px;
     }
 }
@@ -15,7 +23,8 @@
 @media (max-width: 1024px) {
     .container {
         width: 1024px;
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         gap: 400px;
     
     }
@@ -31,7 +40,9 @@
 @media (max-width: 768px) {
     .container {
         width: 768px;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     
     }
     .nav {
@@ -68,8 +79,11 @@
     .cont2 {
         max-width: 700px;
         width: 90%;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .section2-images {
         width: 200px;
@@ -89,8 +103,11 @@
     .cont2 {
         max-width: 500px;
         width: 90%;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .section2-images {
         width: 150px;
@@ -110,8 +127,11 @@
     .cont2 {
         max-width: 400px;
         width: 90%;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .section2-images {
         width: 200px;
